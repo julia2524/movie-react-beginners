@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/movie-react-beginners/static/css/main.ce11b398.css",
-    "main.js": "/movie-react-beginners/static/js/main.5aa587ea.js",
+    "main.js": "/movie-react-beginners/static/js/main.4d60cb61.js",
     "index.html": "/movie-react-beginners/index.html",
     "main.ce11b398.css.map": "/movie-react-beginners/static/css/main.ce11b398.css.map",
-    "main.5aa587ea.js.map": "/movie-react-beginners/static/js/main.5aa587ea.js.map"
+    "main.4d60cb61.js.map": "/movie-react-beginners/static/js/main.4d60cb61.js.map"
   },
   "entrypoints": [
     "static/css/main.ce11b398.css",
-    "static/js/main.5aa587ea.js"
+    "static/js/main.4d60cb61.js"
   ]
 }
