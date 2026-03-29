@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Movie from "../components/Movie";
-
+import styles from "./Home.module.css";
 function Detail() {
   const [loading, setLoading] = useState(true);
   const [movie, setMovie] = useState({});
@@ -16,19 +16,19 @@ function Detail() {
   useEffect(() => {
     getMovie();
   }, []);
-  useEffect(() => {
-    console.log(movie);
-  }, [movie]);
 
   return (
-    <div>
+    <div className={styles.container}>
       {loading ? (
-        <h1>Loading...</h1>
+        <div className={styles.loader}>
+          <span>Loading...</span>
+        </div>
       ) : (
         <div>
           <Movie
             key={movie.id}
             id={movie.id}
+            year={movie.year}
             coverImg={movie.medium_cover_image}
             title={movie.title}
             summary={movie.description_full}
